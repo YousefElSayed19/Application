@@ -1,0 +1,138 @@
+doctype html 
+html
+    head
+        title Application
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        include links/style.pug
+    body   
+        .page.mb-5
+            .container
+                header.container
+                    h1.color Logo
+                    ul
+                        li.color.active 
+                            a(href="#",class='active') Home
+                        li
+                            a(href="#") About
+                        li
+                            a(href="#") Contact Us
+                .landing
+                    .container.mt-5
+                        .text
+                            h1 New E-commerce App best for You
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sed vulputate vitae velit dictum cursus amet. Turpis donec ut velit quis. Cursus commodo, eget urna, sapien amet.
+                            img(src='./image/Group gog.png' ,class="me-4 mb-4")
+                            img(src='./image/Group app.png ', class='mb-4')
+                        .img
+                            img(src='./image/Mockup.png')
+
+        .about 
+            img(src='./image/box1.png' class='box1 position-absolute')
+            img(src='./image/box2.png' class='box2 position-absolute')
+            .container
+                .contains
+                    h1.title What we do to help our customers in digital era.
+                    img(src='./image/dots.png' class='dots1 position-absolute')
+                    img(src='./image/dots.png' class='dots2 position-absolute')
+                    img(src='./image/dots.png' class='dots3 position-absolute')
+                    .div
+                        .cord.text-center
+                            img(src='./image/1.png')
+                            .text.text-start 
+                                h1 hello
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                span.active.mt-5 Learn More &gt;
+                        .cord.text-center
+                            img(src='./image/3.png')
+                            .text.text-start 
+                                h1 hello
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                span.active.mt-5 Learn More &gt;
+                                
+                    .cord.cart.text-center
+                        img(src='./image/2.png')
+                        .text.text-start 
+                            h1 hello
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            span.active.mt-5 Learn More &gt;
+        .works
+            .container
+                h1.title How it works
+                .cards.d-grid
+                    .row.text-center
+                        .cord.col-lg-4.col-md-6.col-12
+                            img(src='./image/per.png')
+                            p.fs-3 Create an account
+                            p Lorem ipsum dolor sit amet, consecteteu.
+                        .cord.col-lg-4.col-md-6.col-12
+                            img(src='./image/shild.png')
+                            p.fs-3 Create an account
+                            p Lorem ipsum dolor sit amet, consecteteu.
+                        .cord.col-lg-4.col-md-6.col-12
+                            img(src='./image/face.png')
+                            p.fs-3 Create an account
+                            p Lorem ipsum dolor sit amet, consecteteu.
+        .client
+            img(src='./image/dots.png',class='dots4 position-absolute')
+            h1.title What our client say
+            .container.d-grid
+                .row
+                    .img.col-lg-6 
+                        img(src='./image/girl.png').girl
+                    .text.col-lg-6
+                        img(src='./image/dot.png').dot
+                        p.gray.sub Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.
+                        p.fw-bold Angel Paulina
+                        .imgs
+                            img(src='./image/right.png')
+        .foot
+            img(src='./image/left1.png' , class='left1 position-absolute')
+            img(src='./image/right1.png' , class='right1 position-absolute')
+            .container.d-grid
+                .row.align-items-center
+                    .img.col-lg-6 
+                        img(src='./image/phone.png')
+                    .text.col-lg-6
+                        p.fw-bold Download app to enjoy more!
+                        p.gray Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.
+                        img(src='./image/play.png')
+                        img(src='./image/store.png')
+        .footer.bg-primary.pt-5.pb-4
+            .container.d-grid
+                .row
+                    .cord.col-lg-2.col-md-4.col-sm-6
+                        h1 LOGO
+                    .cord.col-lg-2.col-md-4.col-sm-6
+                        p.fw-bold.text-decoration-underline Quick Links
+                        p Sign Up
+                        p About Us
+                    .cord.col-lg-2.col-md-4.col-sm-6
+                        p.fw-bold.text-decoration-underline Others
+                        p User FAQS
+                        p Contact Us
+                        p Legal
+                        p Privacy Police
+                        p Tearms and Contitions
+                    .cord.col-lg-2.col-md-4.col-sm-6
+                        p.fw-bold.text-decoration-underline Products
+                        p send
+                        p Receive
+                        p Buy
+                    .cord.col-lg-4.col-md-6.col-sm-8
+                        p Subscribe to our newsletter and be the first to know about our updates
+                        input(type="email",placeholder="Enter Your email")
+                        button.btn.btn-primary Subscribe
+        .end.bg-primary.p-2
+            .container.d-flex.justify-content-between.align-items-center
+                p.text-white.m-0 Copyright © 2024. All rights reserved.
+                .icons
+                    a(target="_blank" href="https://www.facebook.com/profile.php?id=100010998605405").text-white.fs-4
+                        <i class="fa-brands fa-facebook"></i>
+                    a(target="_blank" href="https://github.com/YousefElSayed19").text-white.ms-3.fs-4
+                        <i class="fa-brands fa-github"></i>
+                    a(target="_blank" href="https://www.linkedin.com/in/yousaf-elsayed-a316a92a8/").text-white.ms-3.fs-4
+                        <i class="fa-brands fa-linkedin"></i>
+        include links/script.pug
+
